@@ -1,0 +1,50 @@
+/* Retro Web Stylesheet - Early 2000s Style */
+
+body {
+    margin: 20px;
+    padding: 0;
+}
+
+/* Link styles - classic blue/purple visited links */
+a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF0000;
+    background-color: #FFFF00;
+}
+
+/* Make sure images don't break layout */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* Add some subtle effects for tables */
+table {
+    border-collapse: collapse;
+}
+
+/* Classic scrollbar colors (works in IE and some older browsers) */
+body {
+    scrollbar-face-color: #CCCCCC;
+    scrollbar-shadow-color: #999999;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-3dlight-color: #DDDDDD;
+    scrollbar-darkshadow-color: #666666;
+    scrollbar-track-color: #EEEEEE;
+    scrollbar-arrow-color: #000000;
+}
+
+/* Horizontal rule styling */
+hr {
+    height: 2px;
+    border: 0;
+}
+
+/* Center tag compatibility */
+center {
+    text-align: center;
+}
